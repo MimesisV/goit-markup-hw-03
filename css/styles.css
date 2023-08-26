@@ -71,19 +71,28 @@ button {
 
 /*  ----------- HEADER -----------*/
 
+
 .header-container {
-    padding-top: 25.5px;
-    padding-bottom: 25.5px;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+
     justify-content: space-between;
+    border-bottom: 1px solid #e7e9fc
 }
 
 .header-nav {
     display: flex;
+    align-items: center
 }
 
 .header-nav-list {
     display: flex;
     gap: 40px;
+}
+
+.header-nav-item, .header-address-list {
+    padding: 24px 0
 }
 
 .header-logo {
