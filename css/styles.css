@@ -158,8 +158,8 @@ button {
 .hero-section {
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
     gap: 48px;
-    max-width: 1440px;
     padding-top: 188px;
     padding-bottom: 188px;
 
