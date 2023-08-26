@@ -155,15 +155,21 @@ button {
 /*  ----------- MAIN -----------*/
 
 /* --- Hero --- */
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+}
+
 .hero-section-container {
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
     gap: 48px;
     padding-top: 188px;
+
     padding-bottom: 188px;
 
-    background-color: #2e2f42 ;
+    background-color: #2e2f42;
 }
 
 .hero-section-headline {
