@@ -345,16 +345,18 @@ button {
 }
 
 .portfolio-item {
-    max-width: 360px;
+    width: calc((100% - 48px) / 3);
     box-sizing: border-box;
     border: 1px solid #E7E9FC;
 }
 
-.portfolio-list-headline {
-    margin-top: 32px;
-    margin-bottom: 8px;
-    text-align: center;
+.portfolio-item-container {
+    padding: 32px 16px;
+}
 
+.portfolio-list-headline {
+    margin-bottom: 8px;
+    
     color: var(--dark-text-color);
 
     font-size: 20px;
@@ -364,9 +366,6 @@ button {
 }
 
 .portfolio-list-text {
-    margin-bottom: 32px;
-    text-align: center;
-
     color: var(--regular-text-color);
 
     font-size: 16px;
