@@ -294,6 +294,7 @@ button {
 }
 
 .portfolio-item {
+    max-width: 360px;
     box-sizing: border-box;
     border: 1px solid #E7E9FC;
 }
