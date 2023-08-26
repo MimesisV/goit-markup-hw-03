@@ -251,11 +251,16 @@ button {
 /* --- Our team --- */
 
 .team {
-    display: flex;
-    flex-direction: column;
     padding: 120px 0;
 
     background-color: var(--light-mode-color);
+}
+
+.team-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .team-headline {
@@ -319,10 +324,14 @@ button {
 /* --- Our Portfolio --- */
 
 .portfolio {
-    display: flex;
-    flex-direction: column;
     padding-top: 120px;
     padding-bottom: 120px;
+}
+
+.portfolio-container {
+    display: flex; 
+    flex-direction: column;
+    margin: 0 auto;
 }
 
 .portfolio-headline {
