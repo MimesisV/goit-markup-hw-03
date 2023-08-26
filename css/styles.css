@@ -52,7 +52,6 @@ button {
 
 .container {
     display: flex;
-    padding: 0 156px;
     max-width: 1440px;
 }
 
@@ -209,13 +208,28 @@ button {
 
 /* --- Our strategies --- */
 
+.strategies { 
+    display: flex;
+    justify-content: center;
+}
+
+
 .strategies-list {
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 24px;
     padding-top: 120px;
     padding-bottom: 120px;
 }
+
+.strategies-item {
+    width: calc((100% - 72px) / 4);
+}
+
 .strategies-headline {
+    margin-bottom: 8px;
+
     color: var( --dark-text-color);
 
     font-size: 20px;
