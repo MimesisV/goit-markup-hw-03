@@ -211,6 +211,7 @@ button {
 .strategies { 
     display: flex;
     justify-content: center;
+    padding: 120px 0
 }
 
 
@@ -219,8 +220,7 @@ button {
     align-items: center;
     justify-content: center;
     gap: 24px;
-    padding-top: 120px;
-    padding-bottom: 120px;
+
 }
 
 .strategies-item {
