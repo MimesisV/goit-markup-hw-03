@@ -51,7 +51,6 @@ button {
 }
 
 .container {
-    display: flex;
     max-width: 1440px;
     padding-left: 156px;
     padding-right: 156px;
@@ -77,6 +76,7 @@ button {
 }
 
 .header-container {
+    display: flex;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -381,8 +381,6 @@ button {
 }
 
 .footer-container {
-    display: flex;
-    flex-direction: column;
     margin: 0 auto;
 }
 
