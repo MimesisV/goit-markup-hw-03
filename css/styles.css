@@ -385,10 +385,11 @@ button {
     background-color: var(--dark-text-color);
 }
 
-
+.footer-container {
+    display: inline-block;
+}
 
 .footer-logo {
-    display: inline-block;
     margin-bottom: 16px;
 
     color: #4d5ae5;
